@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import ExpenseNavbar from './Components/Navbar/expense-navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ExpenseAmount from './Components/Forms/expense-amount';
+import ExpenseDesc from './Components/Forms/expense-description';
+import ExpenseLocation from './Components/Forms/expense-location';
+import ExpenseCurrency from './Components/Forms/expense-currency';
+import ExpenseCalendar from './Components/Calendar/expense-calendar';
+import ExpenseTable from './Components/Table/expense-table';
+
+
+
 
 function App() {
   return (
     <div className="App">
+      <ExpenseNavbar></ExpenseNavbar>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ExpenseAmount />
+        <ExpenseDesc />
+        <ExpenseLocation />   
+        <ExpenseCurrency />
+        <ExpenseCalendar />
+        <ExpenseTable />
       </header>
+      
     </div>
   );
 }
