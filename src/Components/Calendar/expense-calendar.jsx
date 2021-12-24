@@ -27,7 +27,7 @@ class ExpenseCalendar extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onFormSubmit}>
+      <form name="calendar" onSubmit={this.onFormSubmit}>
           <label>Date:
         <div className="form-group">
           <DatePicker

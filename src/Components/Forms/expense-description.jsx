@@ -4,9 +4,9 @@ import { Form } from "react-bootstrap";
 const ExpenseDesc = () => {
   return (
     <Form>
-      <label>
+      <label name="description">
         Description:
-        <input type="text" name="description" placeholder="Purchase description..."/>
+        <input type="text" placeholder="Purchase description..."/>
       </label>
     </Form>
   );

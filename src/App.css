@@ -43,3 +43,40 @@ th{
 td{
   color: white;
 }
+
+div[name="app-container"] {
+  position: absolute;
+  width: 85%;
+  height: 80%;
+}
+
+label[name="amount"] {
+  position: relative;
+  margin-right: 100%;
+}
+
+label[name="description"] {
+  position: relative;
+  margin-right: 100%;
+
+}
+
+label[name="location"] {
+  position: relative;
+  margin-right: 100%;
+}
+
+label[name="currency"] {
+  position: relative;
+  margin-right: 100%;
+
+}
+
+form[name="calendar"] {
+  position: relative;
+  margin-right: 100%;
+}
+
+div[name="table"] {
+  position: relative;
+}

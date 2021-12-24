@@ -4,9 +4,9 @@ import { Form } from "react-bootstrap";
 const ExpenseLocation = () => {
   return (
     <Form>
-      <label>
+      <label name="location">
         Location:
-        <input type="text" name="location" placeholder="Purchase location..." />
+        <input type="text" placeholder="Purchase location..." />
       </label>
     </Form>
   );

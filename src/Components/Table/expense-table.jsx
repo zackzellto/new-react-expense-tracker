@@ -5,7 +5,7 @@ import { Table } from "react-bootstrap";
  
 const ExpenseTable = () => {
     return(
-        <div className="table-container">
+        <div name="table" className="table-container">
             <Table>
                 <thead>
                     <tr>
