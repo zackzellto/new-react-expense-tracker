@@ -79,4 +79,12 @@ form[name="calendar"] {
 
 div[name="table"] {
   position: relative;
+  top: 5%;
+}
+
+img[name="wheel"] {
+  position: absolute;
+  bottom: 50%;
+  max-width: 100%;
+  height: auto;
 }
