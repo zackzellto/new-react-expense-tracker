@@ -2,8 +2,6 @@ import React from "react";
 import { Form } from "react-bootstrap";
 import useForm from "react-hook-form"
 
-const {}
-
 const ExpenseLocation = () => {
   return (
     <Form>
