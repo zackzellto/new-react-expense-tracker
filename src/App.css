@@ -9,12 +9,24 @@ table {
   width: 100%;
 }
 th, td {
-  padding: 0.25rem;
-  text-align: left;
+  padding: 0.15rem;
+  text-align: center;
   border: 1px solid #ccc;
 }
 tbody tr:nth-child(odd) {
   background: #eee;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(88, 83, 83, 0.37);
+}
+
+button[name="submitBtn"]{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 18px;
+  bottom: 25%;
+  background-color: black;
 }
 
 .App {
@@ -55,7 +67,7 @@ th{
 }
 
 td{
-  color: white;
+  color: rgb(77, 71, 71);
 }
 
 div[name="app-container"] {
@@ -64,41 +76,20 @@ div[name="app-container"] {
   height: 80%;
 }
 
-label[name="amount"] {
-  position: relative;
-  margin-right: 100%;
-}
-
-label[name="description"] {
-  position: relative;
-  margin-right: 100%;
-
-}
-
-label[name="location"] {
-  position: relative;
-  margin-right: 100%;
-}
-
-label[name="currency"] {
-  position: relative;
-  margin-right: 100%;
-
-}
-
-form[name="calendar"] {
-  position: relative;
-  margin-right: 100%;
-}
-
-div[name="table"] {
-  position: relative;
-  top: 5%;
+form{
+  margin-bottom: 25px;
+  padding: 2%;
+  display: flex;
+  
 }
 
 img[name="wheel"] {
-  position: absolute;
-  bottom: 50%;
+  position: relative;
+  bottom: 55%;
+  right: auto;
+  top: 50%;
+  left: 30%;
   max-width: 100%;
-  height: auto;
+  height: 300px;
+  
 }
