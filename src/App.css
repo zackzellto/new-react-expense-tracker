@@ -18,18 +18,19 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-  background: rgba(88, 83, 83, 0.37);
+  background: rgba(255, 255, 255, 0.527);
 }
 
 button[name="submitBtn"]{
   color: rgb(255, 255, 255);
-  position: absolute;
-  font-size: 18px;
-  bottom: 25%;
+  position: relative;
+  font-size: 28px;
+  bottom: 22%;
   background-color: black;
 }
 
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -80,7 +81,7 @@ form{
   margin-bottom: 25px;
   padding: 2%;
   display: flex;
-  
+  flex-wrap: wrap;
 }
 
 img[name="wheel"] {
