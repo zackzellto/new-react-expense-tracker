@@ -41,6 +41,8 @@ function App() {
         
         <div name="app-container">
           <div>
+            <WheelImage />
+            
             <InputForm 
             handleSubmit={handleSubmit}
             description={description}
@@ -54,7 +56,7 @@ function App() {
             date={date}
             setDate={setDate}
             />
-            <WheelImage />
+            
             <ExpenseTable expenseList={expenseList} />            
           </div>
 
