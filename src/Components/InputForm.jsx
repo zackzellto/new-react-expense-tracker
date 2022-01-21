@@ -75,11 +75,11 @@ const InputForm =
             />
           </label>
         </div>
-        <div>
+        
           <button type="submit" name="submitBtn">
             Submit
           </button>
-        </div>
+        
       </Form>
     );
   };

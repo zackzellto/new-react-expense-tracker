@@ -1,10 +1,9 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 
-const ExpenseTable = ({expenseList}) => {
-    const ExpenseDeleteFunction = () => {
-        //write delete logic here.
-        //grab selector functionality by id
+const ExpenseTable = ({ expenseList }) => {
+    const ExpenseDeleteFunction = (e) => {
+        e.target.parentElement.parentElement.remove();          
     }
 
   return (

@@ -5,6 +5,7 @@ body {
 }
 
 table {
+  margin-top: 100px;
   border-collapse: collapse;
   width: 100%;
 }
@@ -23,10 +24,11 @@ tbody tr:nth-child(even) {
 
 button[name="submitBtn"]{
   color: rgb(255, 255, 255);
-  position: relative;
+  position: absolute;
   font-size: 28px;
   left: 17.5em;
-  top: 25px;
+  top: 54%;
+  max-width: 100%;
   background-color: red;
 }
 
@@ -59,11 +61,6 @@ button[name="submitBtn"]{
   margin-left: 25%;
 }
 
-input::placeholder {
-  font-size: .6em;
-  font-style: italic;
-}
-
 th{
   color: aqua;
 }
@@ -83,6 +80,7 @@ form{
   padding: 2%;
   display: flex;
   flex-wrap: wrap;
+  font-size: 24px;
 }
 
 img[name="wheel"] {
@@ -91,4 +89,16 @@ img[name="wheel"] {
   max-width: 100%;
   height: 350px;
   
+}
+
+input[placeholder]{
+  font-size: 24px;
+}
+
+option{
+  font-size: 16px;
+}
+
+label{
+  font-size: 28px;
 }
