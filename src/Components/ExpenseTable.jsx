@@ -24,8 +24,8 @@ const ExpenseTable = ({ expenseList }) => {
                 return (
                     <tr key={expense.name}>
                     <td>{expense.date}</td>
-                    <td>{expense.amount}</td>{" "}
-                    <td>${expense.description}</td> 
+                    <td>${expense.amount}</td>{" "}
+                    <td>{expense.description}</td> 
                     <td>{expense.location}</td>{" "}
                     <td>{expense.currency}</td> 
                     <td><button onClick={ExpenseDeleteFunction}>
