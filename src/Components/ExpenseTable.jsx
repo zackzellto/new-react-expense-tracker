@@ -23,11 +23,11 @@ const ExpenseTable = ({ expenseList }) => {
             {expenseList.map(expense => {
                 return (
                     <tr key={expense.name}>
-                    <td>{expense.description}</td>
-                    <td>{expense.currency}</td>{" "}
-                    <td>${expense.amount}</td> 
+                    <td>{expense.date}</td>
+                    <td>{expense.amount}</td>{" "}
+                    <td>${expense.description}</td> 
                     <td>{expense.location}</td>{" "}
-                    <td>{expense.date}</td> 
+                    <td>{expense.currency}</td> 
                     <td><button onClick={ExpenseDeleteFunction}>
                             Delete
                         </button></td>{" "}
